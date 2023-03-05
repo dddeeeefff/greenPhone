@@ -1,0 +1,34 @@
+.main {
+	width: 100%;
+	height: 100%;
+	margin: 100px 200px;
+}
+.form_table form { margin:0; }
+.form_table td,table,input {font-size:20px; color: #666; line-height: 150%; }
+.form_table{
+	width:100%;
+	border-collapse:separate;
+	border-spacing:0px;
+	border-top:3px solid #0e9482;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+.form_table th{
+	color:#222;
+	font-weight:normal;
+	text-align:center;
+	padding:15px;
+	border-bottom:1px solid #ddd;
+	letter-spacing:-0.5pt;
+	background:#f9f9f9
+}
+
+.form_table tr {
+	height: 100px;
+}
+.form_table th span{color:#e51d28}
+.form_table td{border-bottom:1px solid #ddd; padding:10px; text-align:left}
+
+#idMsg { font-size:0.8em; }
+#fontBlue { font-weight:bold; color:blue;}
+#fontRed { font-weight:bold; color:Red;}
